@@ -6,3 +6,181 @@ Author: The St. Mark's Communications Team
 Version: 0.1
 Tags:
 */
+
+	*			{padding:0;  margin:0;  border:0;}
+
+	body			{font-family:verdana;  font-size:small;  color:#79705d;}
+
+	#wrap			{margin:0 auto 10% auto;  width:90%;}
+
+	.clear			{clear:both;}
+
+
+
+
+
+	
+	a			{-0-transition:color .2s linear;  -moz-transition:color .2s linear;  -webkit-transition:color .2s linear;  transition:color .2s linear;  text-decoration:none;}
+
+	a:link, a:visited	{color:#d2691e;}
+
+	a:hover, a:active	{color:#000;}
+
+
+
+
+
+	h2			{font-family:"times new roman";  font-weight:normal;  font-size:220%;  padding:0.2em 0 0.4em 0;  line-height:1.1em;  color:#000; border-bottom: 1px solid #cccccc; margin-bottom: 0.4em; }	/* use for headlines */
+
+	h2.line_above		{margin:0.6em 0 0 0;  padding:1em 0 0.8em 0;  border-top:1px solid #bbb;}
+
+	h2.line_below		{margin:0.5em 0 0.8em 0;  padding:0 0 1em 0;  border-bottom:1px solid #bbb;}
+
+	h3			{font-family:"times new roman";  font-weight:normal;  font-size:150%;  color:#555;  padding:0.3em 0 0.5em 0;}	/* use for sub-headlines */
+
+	h4			{font-family:"times new roman";  font-weight:normal;  font-size:140%;  color:#555;  padding:0 0 3em 0;}	/* use for bylines */
+
+	h6			{font-size:85%;  color:#777;  margin:0 0 1px 0;}	/* use for sub-sub-headlines */
+
+
+
+
+
+	
+	p			{font-size:87%;  padding-bottom:1.7em;  line-height:1.9em;}
+
+	p.col			{column-width:18em;  column-gap:25px;  -moz-column-width:18em;  -moz-column-gap:25px;}
+
+	p.pix			{margin:3em 0 2em 0;}
+
+	p.clip			{margin:0 0 1em 0;}
+
+	p.intro			{margin:-2em 20% 5em 20%;  padding:0 0 3em 0;  font-style:italic;  line-height:1.5em;  text-align:center;  border-bottom:1px dashed #bbb;}	/* used in writings at top, separating introduction from text body */
+
+	p.exit			{margin:4em 20% 3em 20%;  padding:4em 0 0 0;  text-align:center;  border-top:1px dashed #bbb;}	/* used in writings at bottom, separating photo from text body */
+
+
+
+
+
+	
+	.left			{float:left;  width:30%;  margin:5% 0 15% 3%;  text-align:center;}
+ 
+	.right			{float:right;  width:55%;  margin:0 7% 0 0;}
+
+	.vessel			{max-width:650px;}
+
+	.logo			{margin:0 0 25% 0;}
+
+	.spacer			{padding:0 0 0 0;}
+
+
+
+
+	
+	li			{list-style:none;}
+
+	li.dot			{margin:2% 0 2% 0;}
+
+	li p			{padding:0.7em 0 0 0;  line-height:1.55em;  max-width:none;}
+
+	li.art			{margin:0 auto 5em auto;  text-align:center;  line-height:2em;}
+
+
+
+
+
+	img			{max-width:100%;}
+
+
+
+
+
+	.tag			{color:#aaa;  font-size:85%;}
+
+
+
+
+
+	iframe			{padding:1em 0 2em 0;  width:98%;  height:500px;}
+
+
+
+
+
+	.o			{display:-moz-inline-box;  display:inline-block;  vertical-align:top;  margin:0 2.4% 2.5em 0;  width:29.5%;}
+
+	.i			{display: block;}
+
+	.i p			{padding:1em 0 0.1em 0;  line-height:1.6em;}
+
+
+
+
+
+	.center			{text-align:center;}
+
+
+
+
+
+	
+	/* ------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+	@media screen and (min-width: 1300px){		.o			{display:-moz-inline-box;  display:inline-block;  vertical-align:top;  margin:0 3% 2em 0;  width:16%;}}
+
+
+
+
+
+
+	@media screen and (max-width: 900px){		.o			{display:-moz-inline-box;  display:inline-block;  vertical-align:top;  margin:0 3% 2em 0;  width:44%;}}
+
+
+
+
+
+
+	@media screen and (max-width: 600px){		.o			{display:-moz-inline-box;  display:inline-block;  vertical-align:top;  margin:0 2.4% 2em 0;  width:29.5%;}		
+
+							#wrap			{width:87%;  margin:8% auto 8% auto;}
+
+							.left			{float:none;  width:auto;}
+
+							.right			{float:none;  width:auto;  margin:0;  clear:both;}
+
+							.logo			{margin:0 0 15% 0;}
+
+							.spacer			{float:none;  width:auto;  padding:5% 0 0 0;}}
+
+
+
+
+
+
+	@media screen and (max-width: 500px){		.o			{display:-moz-inline-box;  display:inline-block;  vertical-align:top;  margin:0 3% 2em 0;  width:44%;}}
+
+
+
+
+
+
+
+	@media screen and (max-width: 400px){		#wrap			{width:85%;  margin:10% auto 10% auto;}}
+
+
+
+
+
+
+	@media screen and (max-width: 350px){		.o			{display:-moz-inline-box;  display:inline-block;  vertical-align:top;  margin:0 0 2em 0;  width:99%;}}
+
+
+
+
+
