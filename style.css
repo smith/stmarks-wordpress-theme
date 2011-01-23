@@ -180,7 +180,21 @@ Tags:
 
 	@media screen and (max-width: 350px){		.o			{display:-moz-inline-box;  display:inline-block;  vertical-align:top;  margin:0 0 2em 0;  width:99%;}}
 
+/* HOME */
+.home h1 {
+    color: #444;
+    font-family: 'Times New Roman';
+    font-size: 280%;
+    font-weight: normal;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #cccccc;
+}
 
-
-
-
+.home h2 {
+    color: #555;
+    font-family: 'Times New Roman';
+    font-size: 150%;
+    font-weight: normal;
+    padding: 1em 0em;
+}
