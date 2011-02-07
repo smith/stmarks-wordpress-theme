@@ -6,7 +6,7 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title><?php wp_title(); ?></title>
+  <title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico">
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css">
@@ -15,7 +15,12 @@
 </head>
 <body <?php body_class(); ?>>
   <div id="container">
+<?php if ( is_home() ): ?>
     <header>
-
+        <h1><?php bloginfo('name'); ?></h1>
     </header>
+<?php endif; ?>
     <div id="main" role="main">
+<?php if ( ! is_home() ): ?>
+    <?php get_sidebar(); ?>
+<?php endif; ?>
