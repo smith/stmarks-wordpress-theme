@@ -8,6 +8,6 @@
     s.parentNode.insertBefore(g,s)}(document,'script'));
 */
   </script>
-  <?php get_footer(); ?>
+  <?php wp_footer(); ?>
 </body>
 </html>
