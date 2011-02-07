@@ -1,7 +1,4 @@
     </div> <!-- end of #main -->
-    <footer>
-
-    </footer>
   </div> <!--! end of #container -->
   <script>
 /*
