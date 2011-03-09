@@ -14,13 +14,18 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-  <div id="container">
-<?php if ( is_home() ): ?>
-    <header>
+  <div id="container" class="clearfix">
+    <header class="container clearfix">
+      <a href="/" class="logo alpha grid_3">
+        <img src="<?php bloginfo('template_directory'); ?>/images/stamp.png" alt="<?php bloginfo('name'); ?>" />
+      </a>
+      <div class="grid_9 omega top">
         <h1><?php bloginfo('name'); ?></h1>
+        <div class="info clearfix">
+          <?php dynamic_sidebar('Main'); ?>
+        </div>
+      </div>
     </header>
-<?php endif; ?>
-    <div id="main" role="main">
-<?php if ( ! is_home() ): ?>
-    <?php get_sidebar(); ?>
-<?php endif; ?>
+    <div id="mid" class="container clearfix">
+      <?php get_sidebar(); ?>
+      <div id="main" class="grid_9 omega" role="main">
