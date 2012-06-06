@@ -470,6 +470,7 @@ li.pdf a:after, a.download:after { content: '\2193'; color: #cccccc; margin-left
 .map { width: 85%; height: 330px; margin-bottom: 1em; }
 .byline { font-size: 100%; font-style: italic; margin-bottom: 1.5em; }
 .excerpt { margin: 0 5em 1em 5em; font-style: italic; }
+blockquote { margin: 1em; font-style: italic; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 { font-family: Optima, Georgia, sans-serif; }
@@ -502,7 +503,7 @@ nav#sidebar ul li a { display: block; text-decoration: none; }
 .social a { text-decoration: none; margin-right: 6px; }
 
 /* Home */
-article.featured { line-height: 1.6; }
+article.featured { line-height: 1.6 }
 article.featured ul { margin-left: 1em; }
 article.featured ul li { margin-bottom: 0.5em; }
 article.featured h1 { font-size: 135%; min-height: 3em; }
