@@ -508,6 +508,7 @@ article.featured ul { margin-left: 1em; }
 article.featured ul li { margin-bottom: 0.5em; }
 article.featured h1 { font-size: 135%; min-height: 3em; }
 .home a.archive { text-align: right; display: block; }
+.comments-closed { visibility: hidden; }
 
 /* Pages */
 .hentry .vcard ul { list-style: none; margin-left: 0; }

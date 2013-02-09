@@ -4,6 +4,8 @@ if (!function_exists('stmarks_init')) {
         add_theme_support('automatic-feed-links');
         add_theme_support('post-thumbnails');
 
+	set_post_thumbnail_size(104);
+
         register_sidebar(array(
             'name' => 'Main',
             'before_widget' => '',
