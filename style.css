@@ -488,9 +488,11 @@ header h1 { margin-top: 80px; font-size: 260%; }
 
 /* Header info (services, address) */
 header .top { text-align: center; }
-header .info .textwidget { float: left; width: 350px; text-align: left; line-height: 1.3; position: relative; left: 10%; }
+header .info .textwidget { float: left; width: 220px; text-align: left; line-height: 1.3; position: relative; left: 10%; }
+header .info .textwidget h2 { font-size: 80%; font-family: inherit; }
 header .info ul { margin: 0; }
 header .info li { list-style: none; margin-bottom: 0.25em; }
+header .info .vcard { margin: 15px 0; }
 header .info .vcard .fn { display: none; }
 header .info .vcard .tel { display: block; margin-bottom: 0.25em; }
 header .info .services .service { font-style: italic; }
