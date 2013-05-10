@@ -5,14 +5,6 @@
  */
 ?>
 <?php get_header(); ?>
-<?php // Home page content ?>
-<?php while ( have_posts() ) : the_post(); ?>
-  <article <?php post_class('home-main clearfix') ?>>
-    <?php the_content(); ?>
-  </article>
-<?php endwhile; ?>
-<?php // Posts ?>
-<?php query_posts( 'posts_per_page=10' ) ?>
   <section>
     <?php while ( have_posts() ) : the_post(); ?>
 <?php
